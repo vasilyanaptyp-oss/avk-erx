@@ -1,0 +1,5 @@
+# Preview: every page carries <meta name="robots" content="noindex"> until go-live.
+User-agent: *
+Allow: /
+
+Sitemap: https://avkerx.example/sitemap.xml

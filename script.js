@@ -1,4 +1,4 @@
-/* AVK ERX: phone menu and the request form (opens the visitor's mail program). */
+/* AVK ERX: phone menu (all sheets) and the request form on kontakti.html (opens the visitor's mail program). */
 (function () {
   'use strict';
   var d = document;
@@ -26,7 +26,7 @@
         btn.focus();
       }
     });
-    var mq = window.matchMedia('(min-width: 1000px)');
+    var mq = window.matchMedia('(min-width: 1200px)');
     var onMq = function () { if (mq.matches) setMenu(false); };
     if (mq.addEventListener) mq.addEventListener('change', onMq); else if (mq.addListener) mq.addListener(onMq);
   }

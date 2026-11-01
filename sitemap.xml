@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Paths are final; only the domain is a placeholder. Rebuild with: python -X utf8 _work/build_site.py --base https://<domain> -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://avkerx.example/</loc></url>
+  <url><loc>https://avkerx.example/apkure.html</loc></url>
+  <url><loc>https://avkerx.example/ventilacija.html</loc></url>
+  <url><loc>https://avkerx.example/kondicionesana.html</loc></url>
+  <url><loc>https://avkerx.example/udens.html</loc></url>
+  <url><loc>https://avkerx.example/buvuzraudziba.html</loc></url>
+  <url><loc>https://avkerx.example/par-mums.html</loc></url>
+  <url><loc>https://avkerx.example/kontakti.html</loc></url>
+</urlset>

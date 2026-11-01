@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ventilācijas projektēšana un būvuzraudzība | AVK ERX</title>
+<meta name="description" content="Ventilācijas projekti ar siltuma atgūšanu: gaisa apmaiņas aprēķins, iekārtas izvēle, gaisa vadu trases. Būvdarbu vadīšana un būvuzraudzība. Valmieras novads.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#FBFBF9">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="lv_LV">
+<meta property="og:site_name" content="AVK ERX">
+<meta property="og:title" content="Ventilācijas projektēšana un būvuzraudzība | AVK ERX">
+<meta property="og:description" content="Ventilācijas projekti ar siltuma atgūšanu: gaisa apmaiņas aprēķins, iekārtas izvēle, gaisa vadu trases. Būvdarbu vadīšana un būvuzraudzība. Valmieras novads.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/plex-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plex-latin-ext-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Service",
+   "name": "Ventilācijas sistēmu projektēšana, būvdarbu vadīšana un būvuzraudzība",
+   "serviceType": "Ventilācijas sistēmu projektēšana",
+   "description": "Gaisa apmaiņas aprēķins, ventilācijas iekārta ar siltuma atgūšanu, gaisa vadu trases, trokšņa slāpēšana, ugunsdrošības vārsti un vadība būvprojekta AVK daļā; ventilācijas izbūves būvdarbu vadīšana un būvuzraudzība.",
+   "provider": {
+    "@type": "LocalBusiness",
+    "name": "AVK ERX",
+    "legalName": "SIA \"AVK ERX\"",
+    "telephone": "+37129420216",
+    "email": "avkerx@gmail.com",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "\"Augšzemnieki\", Pilāti",
+     "addressLocality": "Valmieras pagasts",
+     "addressRegion": "Valmieras novads",
+     "postalCode": "LV-4219",
+     "addressCountry": "LV"
+    }
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Sākums",
+     "item": "index.html"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Ventilācija",
+     "item": "ventilacija.html"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#saturs">Pāriet uz saturu</a>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="index.html" aria-label="AVK ERX, sākumlapa">
+      <span class="brand__mark">AVK ERX</span>
+      <span class="brand__place">Valmieras novads</span>
+    </a>
+    <nav class="nav" aria-label="Galvenā izvēlne">
+      <a href="apkure.html">Apkure</a>
+      <a href="ventilacija.html" aria-current="page">Ventilācija</a>
+      <a href="kondicionesana.html">Kondicionēšana</a>
+      <a href="udens.html">Ūdensapgāde</a>
+      <a href="buvuzraudziba.html">Būvuzraudzība</a>
+      <a href="par-mums.html">Par mums</a>
+      <a href="kontakti.html">Kontakti</a>
+    </nav>
+    <a class="hdr__tel" href="tel:+37129420216">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 3.5H5.4A1.9 1.9 0 0 0 3.5 5.6c.5 8.1 6.8 14.4 14.9 14.9a1.9 1.9 0 0 0 2.1-1.9v-2.8a1 1 0 0 0-.8-1l-3.3-.8a1 1 0 0 0-1 .3l-1.6 1.7a12.4 12.4 0 0 1-5.6-5.6l1.7-1.6a1 1 0 0 0 .3-1l-.8-3.3a1 1 0 0 0-1-.8z"/></svg>
+      <span>+371 29 420 216</span>
+    </a>
+    <div class="hdr__mobile">
+      <a class="iconbtn" href="tel:+37129420216" aria-label="Zvanīt +371 29 420 216">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 3.5H5.4A1.9 1.9 0 0 0 3.5 5.6c.5 8.1 6.8 14.4 14.9 14.9a1.9 1.9 0 0 0 2.1-1.9v-2.8a1 1 0 0 0-.8-1l-3.3-.8a1 1 0 0 0-1 .3l-1.6 1.7a12.4 12.4 0 0 1-5.6-5.6l1.7-1.6a1 1 0 0 0 .3-1l-.8-3.3a1 1 0 0 0-1-.8z"/></svg>
+      </a>
+      <button class="menubtn" type="button" aria-expanded="false" aria-controls="izvelne">
+        <svg class="ico ico--open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5h16M4 15.5h16"/></svg>
+        <svg class="ico ico--close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        <span class="menubtn__t">Izvēlne</span>
+      </button>
+    </div>
+  </div>
+  <div class="menu" id="izvelne" hidden>
+    <nav class="wrap menu__in" aria-label="Izvēlne">
+      <a href="index.html"><span class="menu__n">01</span>Sākums</a>
+      <a href="apkure.html"><span class="menu__n">02</span>Apkure</a>
+      <a href="ventilacija.html" aria-current="page"><span class="menu__n">03</span>Ventilācija</a>
+      <a href="kondicionesana.html"><span class="menu__n">04</span>Gaisa kondicionēšana</a>
+      <a href="udens.html"><span class="menu__n">05</span>Ūdensapgāde un kanalizācija</a>
+      <a href="buvuzraudziba.html"><span class="menu__n">06</span>Būvdarbu vadīšana un būvuzraudzība</a>
+      <a href="par-mums.html"><span class="menu__n">07</span>Par uzņēmumu</a>
+      <a href="kontakti.html"><span class="menu__n">08</span>Kontakti</a>
+      <div class="menu__contact">
+        <a href="tel:+37129420216">+371 29 420 216</a>
+        <a href="mailto:avkerx@gmail.com">avkerx@gmail.com</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="saturs">
+
+  <section class="hero hero--inner" id="sakums" aria-labelledby="virsraksts">
+    <picture class="hero__photo">
+      <img src="img/vent.webp" width="1500" height="1000" fetchpriority="high" style="--pos-m: 50% 50%"
+           alt="Spirālveida cinkota skārda gaisa vadi zem griestiem ar jumta logiem">
+    </picture>
+    <div class="wrap hero__dock">
+      <div class="tb">
+        <nav class="tb__crumbs" aria-label="Ceļš līdz lapai">
+          <ol>
+            <li><a href="index.html">Sākums</a></li>
+            <li><span aria-current="page">Ventilācija</span></li>
+          </ol>
+        </nav>
+        <h1 class="tb__title" id="virsraksts">Ventilācijas projektēšana un būvuzraudzība</h1>
+        <p class="tb__lead">Gaisa apmaiņa, iekārta ar rekuperāciju un gaisa vadu trases. Būvdarbu laikā vadām vai uzraugām izbūvi.</p>
+        <div class="tb__acts">
+          <a class="tb__act tb__act--main" href="tel:+37129420216">
+            <span class="tb__k">Zvanīt</span>
+            <span class="tb__v">+371 29 420 216</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 3.5H5.4A1.9 1.9 0 0 0 3.5 5.6c.5 8.1 6.8 14.4 14.9 14.9a1.9 1.9 0 0 0 2.1-1.9v-2.8a1 1 0 0 0-.8-1l-3.3-.8a1 1 0 0 0-1 .3l-1.6 1.7a12.4 12.4 0 0 1-5.6-5.6l1.7-1.6a1 1 0 0 0 .3-1l-.8-3.3a1 1 0 0 0-1-.8z"/></svg>
+          </a>
+          <a class="tb__act" href="mailto:avkerx@gmail.com">
+            <span class="tb__k">Rakstīt</span>
+            <span class="tb__v">avkerx@gmail.com</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5h17v11h-17z M3.5 7l8.5 6.5L20.5 7"/></svg>
+          </a>
+        </div>
+        <dl class="tb__meta">
+          <div><dt>Būvkomersants</dt><dd>Nr. 15551</dd></div>
+          <div><dt>Sadaļa</dt><dd>Ventilācija</dd></div>
+          <div class="tb__sheet"><dt>Lapa</dt><dd>3 / 8</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="projekts" aria-labelledby="h-proj">
+    <div class="wrap">
+      <div class="duo duo--who">
+        <div class="duo__text">
+          <h2 id="h-proj">Ko ietver ventilācijas projekts</h2>
+          <p class="lead">Ventilācija ir būvprojekta AVK daļas sadaļa. Projekts nosaka, cik gaisa vajag katrai telpai, kur stāvēs iekārta un kur ies gaisa vadi.</p>
+          <dl class="parts">
+            <div><dt>Rasējumi</dt><dd>plāni ar gaisa vadiem un iekārtām, principiālā shēma</dd></div>
+            <div><dt>Aprēķini</dt><dd>gaisa daudzumi un gaisa vadu izmēri</dd></div>
+            <div><dt>Specifikācija</dt><dd>iekārtas, gaisa vadi un sadalītāji</dd></div>
+            <div><dt>Apraksts</dt><dd>risinājuma skaidrojums un prasības izbūvei</dd></div>
+          </dl>
+        </div>
+        <figure class="duo__media duo__media--tall">
+          <img src="img/vent-tall.webp" width="1000" height="1227" loading="lazy" decoding="async"
+               alt="Balti griesti lielā telpā ar apaļiem gaisa vadiem, kabeļu trasēm un gaismas līnijām">
+        </figure>
+      </div>
+      <div class="spec">
+        <div class="spec__row">
+          <h3 class="spec__term">Gaisa apmaiņa</h3>
+          <p>Nosakām, cik svaiga gaisa vajag katrai telpai pēc tās lietojuma un cilvēku skaita un cik gaisa jānosūc no virtuves, vannas istabas un tualetes.</p>
+        </div>
+        <div class="spec__row">
+          <h3 class="spec__term">Ventilācijas iekārta</h3>
+          <p>Pieplūdes un nosūces iekārta ar siltuma atgūšanu jeb rekuperāciju: jauda, filtri, sildītājs un vieta, kur pie tās var piekļūt apkopei.</p>
+        </div>
+        <div class="spec__row">
+          <h3 class="spec__term">Gaisa vadi</h3>
+          <p>Gaisa vadu izmēri un trases, kas sader ar konstrukcijām un griestu augstumu, un gaisa sadalītāji katrā telpā.</p>
+        </div>
+        <div class="spec__row">
+          <h3 class="spec__term">Troksnis un ugunsdrošība</h3>
+          <p>Trokšņa slāpētāji, lai iekārtu nedzird guļamistabās un birojos, un ugunsdrošības vārsti, kur gaisa vadi šķērso ugunsdrošības nodalījumu robežas.</p>
+        </div>
+        <div class="spec__row">
+          <h3 class="spec__term">Vadība</h3>
+          <p>Darbības režīmi, gaisa daudzuma regulēšana pēc vajadzības un sasaiste ar apkuri vai dzesēšanu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--dark" id="parbaudes" aria-labelledby="h-parb">
+    <div class="wrap">
+      <div class="shead">
+        <h2 id="h-parb">Ko pārbaudām objektā</h2>
+        <p class="lead">Kā būvdarbu vadītājs vai būvuzraugs pārbaudām, vai ventilāciju izbūvē pēc projekta, un apskatām gaisa vadus, pirms tos aizklāj piekārtie griesti.</p>
+      </div>
+      <ul class="checklist">
+        <li>
+          <svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l4.8 4.8L19.5 7"/></svg>
+          <div>
+            <h3>Iekārta un piekļuve</h3>
+            <p>Ventilācijas iekārta ir projektā paredzētā vai saskaņota līdzvērtīga, un pie filtriem un ventilatoriem var piekļūt apkopei.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l4.8 4.8L19.5 7"/></svg>
+          <div>
+            <h3>Gaisa vadi un savienojumi <span class="tag">pirms aizklāšanas</span></h3>
+            <p>Gaisa vadu izmēri un trases atbilst projektam, un savienojumi ir blīvi.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l4.8 4.8L19.5 7"/></svg>
+          <div>
+            <h3>Izolācija <span class="tag">pirms aizklāšanas</span></h3>
+            <p>Āra gaisa un izmetes gaisa vadi siltajā ēkas daļā ir izolēti, lai uz tiem nekrātos kondensāts.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l4.8 4.8L19.5 7"/></svg>
+          <div>
+            <h3>Ugunsdrošība <span class="tag">pirms aizklāšanas</span></h3>
+            <p>Ugunsdrošības vārsti ir paredzētajās vietās, un vietas, kur gaisa vadi iet cauri sienām un pārsegumiem, ir noblīvētas.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l4.8 4.8L19.5 7"/></svg>
+          <div>
+            <h3>Ieregulēšana</h3>
+            <p>Gaisa daudzumi telpās ir izmērīti un ieregulēti pēc projekta, un mērījumi ir ierakstīti protokolā.</p>
+          </div>
+        </li>
+        <li>
+          <svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l4.8 4.8L19.5 7"/></svg>
+          <div>
+            <h3>Dokumenti</h3>
+            <p>Segto darbu akti, mērījumu protokols un iekārtas ekspluatācijas instrukcija ir gatavi sistēmas nodošanai.</p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="sec" id="ekas" aria-labelledby="h-ekas">
+    <div class="wrap">
+      <h2 id="h-ekas">Kādām ēkām</h2>
+      <ul class="cells">
+        <li>
+          <h3>Privātmājām</h3>
+          <p>Ventilācija ar rekuperāciju jaunai vai siltinātai mājai.</p>
+        </li>
+        <li>
+          <h3>Daudzdzīvokļu mājām</h3>
+          <p>Ventilācija atjaunošanas laikā, kad pēc siltināšanas un logu nomaiņas ar dabisko ventilāciju vairs nepietiek.</p>
+        </li>
+        <li>
+          <h3>Birojiem, veikaliem un skolām</h3>
+          <p>Telpām, kurās vienlaikus ir daudz cilvēku un svaiga gaisa vajag vairāk.</p>
+        </li>
+        <li>
+          <h3>Ražošanas ēkām un noliktavām</h3>
+          <p>Vispārējā ventilācija un vietējā nosūce no iekārtām un darba vietām.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec sec--zinc" aria-labelledby="h-faq">
+    <div class="wrap faqgrid">
+      <h2 id="h-faq">Biežākie jautājumi</h2>
+      <div class="faq">
+        <details>
+          <summary><span>Vai privātmājai vajag ventilāciju ar rekuperāciju?</span><span class="pm" aria-hidden="true"></span></summary>
+          <div class="faq__a"><p>Labi siltinātā mājā ar blīviem logiem dabiskā ventilācija bieži nenodrošina pietiekamu gaisa apmaiņu. Iekārta ar siltuma atgūšanu pievada svaigu gaisu un atgūst daļu siltuma no nosūcamā gaisa. Vai tā vajadzīga jūsu mājai, pateiksim pēc plāniem.</p></div>
+        </details>
+        <details>
+          <summary><span>Kur novietot ventilācijas iekārtu?</span><span class="pm" aria-hidden="true"></span></summary>
+          <div class="faq__a"><p>Parasti tehniskajā telpā, bēniņos vai virs piekārtajiem griestiem, kur var piekļūt filtru maiņai. Vietu izvēlamies tā, lai gaisa vadi būtu īsi un iekārtu nedzirdētu guļamistabās.</p></div>
+        </details>
+        <details>
+          <summary><span>Kā gaisa vadi sader ar griestu augstumu?</span><span class="pm" aria-hidden="true"></span></summary>
+          <div class="faq__a"><p>Gaisa vadu trases projektējam kopā ar arhitektūras daļu: kur tie ies, kur vajag piekārtos griestus un kur pietiek ar gaisa vadu gar sienu. To labāk izlemt projektā, nevis būvlaukumā.</p></div>
+        </details>
+        <details>
+          <summary><span>Vai ventilāciju var izbūvēt jau uzceltā mājā?</span><span class="pm" aria-hidden="true"></span></summary>
+          <div class="faq__a"><p>Jā, bet gaisa vadiem jāatrod vieta esošajās konstrukcijās. Tāpēc pārbūves projektam vispirms apskatām plānus un, ja vajag, arī pašu māju.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-cta">
+    <div class="wrap">
+      <div class="cta">
+        <div class="cta__text">
+          <h2 id="h-cta">Pastāstiet par savu objektu</h2>
+          <p class="lead">Kāda ir ēka, kur tā atrodas un kas vajadzīgs: projekts, būvdarbu vadīšana vai būvuzraudzība. Atbildēsim un pateiksim, kas vajadzīgs tālāk.</p>
+        </div>
+        <div class="cta__acts">
+          <a class="cta__act cta__act--main" href="tel:+37129420216">
+            <span class="tb__k">Zvanīt</span>
+            <span class="cta__v">+371 29 420 216</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 3.5H5.4A1.9 1.9 0 0 0 3.5 5.6c.5 8.1 6.8 14.4 14.9 14.9a1.9 1.9 0 0 0 2.1-1.9v-2.8a1 1 0 0 0-.8-1l-3.3-.8a1 1 0 0 0-1 .3l-1.6 1.7a12.4 12.4 0 0 1-5.6-5.6l1.7-1.6a1 1 0 0 0 .3-1l-.8-3.3a1 1 0 0 0-1-.8z"/></svg>
+          </a>
+          <a class="cta__act" href="mailto:avkerx@gmail.com">
+            <span class="tb__k">Rakstīt</span>
+            <span class="cta__v">avkerx@gmail.com</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5h17v11h-17z M3.5 7l8.5 6.5L20.5 7"/></svg>
+          </a>
+          <a class="cta__act" href="kontakti.html#forma">
+            <span class="tb__k">Pieteikums</span>
+            <span class="cta__v">Aizpildīt formu</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13.5 6.5 19 12l-5.5 5.5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+  <nav class="wrap" aria-label="Citas lapas"><div class="sheets">
+    <a class="sheets__prev" href="apkure.html"><span class="sheets__k">Iepriekšējā lapa 2</span><span class="sheets__t">Apkure</span></a>
+    <a class="sheets__next" href="kondicionesana.html"><span class="sheets__k">Nākamā lapa 4</span><span class="sheets__t">Gaisa kondicionēšana</span></a>
+  </div></nav>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="stamp">
+      <div class="stamp__head">
+        <span class="stamp__mark">AVK ERX</span>
+        <span class="stamp__what">Siltumapgādes, ventilācijas un gaisa kondicionēšanas sistēmu projektēšana. Būvdarbu vadīšana un būvuzraudzība, arī ūdensapgādes un kanalizācijas sistēmām.</span>
+      </div>
+      <div class="stamp__body">
+        <dl class="stamp__grid">
+          <div><dt>Uzņēmums</dt><dd>SIA "AVK ERX"</dd></div>
+          <div><dt>Reģ. Nr.</dt><dd>44103135652</dd></div>
+          <div class="stamp__wide-s"><dt>Tālrunis</dt><dd><a href="tel:+37129420216">+371 29 420 216</a></dd></div>
+          <div class="stamp__wide-s"><dt>E-pasts</dt><dd><a href="mailto:avkerx@gmail.com">avkerx@gmail.com</a></dd></div>
+          <div><dt>Būvkomersantu reģistrs</dt><dd>Nr. 15551, kopš 13.12.2019</dd></div>
+          <div><dt>Lapa</dt><dd>3 / 8</dd></div>
+          <div class="stamp__addr"><dt>Juridiskā adrese</dt><dd>"Augšzemnieki", Pilāti, Valmieras pag., Valmieras nov., LV-4219</dd></div>
+        </dl>
+      </div>
+      <nav class="stamp__list" aria-label="Lapu saraksts">
+        <ol>
+          <li><a href="index.html"><span>1</span>Sākums</a></li>
+          <li><a href="apkure.html"><span>2</span>Apkure</a></li>
+          <li><a href="ventilacija.html" aria-current="page"><span>3</span>Ventilācija</a></li>
+          <li><a href="kondicionesana.html"><span>4</span>Kondicionēšana</a></li>
+          <li><a href="udens.html"><span>5</span>Ūdensapgāde</a></li>
+          <li><a href="buvuzraudziba.html"><span>6</span>Būvuzraudzība</a></li>
+          <li><a href="par-mums.html"><span>7</span>Par mums</a></li>
+          <li><a href="kontakti.html"><span>8</span>Kontakti</a></li>
+        </ol>
+      </nav>
+    </div>
+    <div class="foot__end">
+      <span>© 2026 SIA "AVK ERX"</span>
+      <a class="totop" href="#sakums">Uz augšu
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6.5 10.5 12 5l5.5 5.5"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
